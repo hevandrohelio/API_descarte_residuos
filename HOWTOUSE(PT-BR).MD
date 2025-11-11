@@ -50,10 +50,10 @@ GET <http://localhost:3000/descarte/relatorio>
 
 ### Excluir ponto de descarte
 
-DELETE <http://localhost:3000/descarte/ponto/672ef81e4a8f92a5c5db1217>
+DELETE <http://localhost:3000/descarte/ponto/ID>
 
 ### Excluir descartes de um usuário
 
-DELETE <http://localhost:3000/descarte/usuario/Hevandro>
+DELETE <http://localhost:3000/descarte/usuario/NOME>
 
 ATENÇÃO: Apaga todos os descartes do usuário.
