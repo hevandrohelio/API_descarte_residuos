@@ -1,6 +1,6 @@
 # Como usar a API
 
-[README](README.MD)
+[README](README.md)
 
 ## Adaptando o código
 
