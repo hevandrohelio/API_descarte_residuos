@@ -1,5 +1,7 @@
 # Como usar a API
 
+[README](README.MD)
+
 ## Adaptando o código
 
 Crie um banco de dados MongoDB e, em src\app.module.ts, insira a URL do banco de dados em `MongooseModule.forRoot('URL')`
