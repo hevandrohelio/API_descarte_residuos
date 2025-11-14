@@ -30,8 +30,8 @@ A aplicação está alinhada ao Objetivo de Desenvolvimento Sustentável (ODS) 1
 
 ## Tecnologias utilizadas
 
-- NestJS (22.19.0) — framework Node.js para construção modular e escalável de APIs RESTful;
+- NestJS (22.19.0) - framework Node.js para construção modular e escalável de APIs RESTful;
 
-- MongoDB + Mongoose — banco de dados não relacional para armazenamento dos registros;
+- MongoDB + Mongoose - banco de dados não relacional para armazenamento dos registros;
 
-- Postman — ferramenta utilizada para realizar e testar as requisições HTTP.
+- Postman - ferramenta utilizada para realizar e testar as requisições HTTP.
