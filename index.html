@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pontos de Descarte</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scriptPonto.js"></script>
+</head>
+
+<body>
+    <nav><a href="#">Pontos </a><a href="usuarios.html">Usuários </a><a href="relatorio.html">Relatórios</a></nav>
+    <section>
+        <form>
+            <label for="local">Local:</label>
+            <input type="text" id="local"><br><br>
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro"><br><br>
+            <label>Tipo do local:</label><br><br>
+            <input type="radio" name="tipoLocal" id="publico" value="público">
+            <label for="publico">Público</label><br>
+            <input type="radio" name="tipoLocal" id="privado" value="privado">
+            <label for="privado">Privado</label><br><br>
+            <label for="tipo">Categorias:</label><br><br>
+            <input type="checkbox" id="plastico" value="plástico">
+            <label for="plastico">Plástico</label>
+            <input type="checkbox" id="papel" value="papel">
+            <label for="papel">Papel</label>
+            <input type="checkbox" id="organico" value="orgânico">
+            <label for="organico">Orgânico</label>
+            <input type="checkbox" id="eletronico" value="eletrônico">
+            <label for="eletronico">Eletrônico</label>
+            <input type="checkbox" id="vidro" value="vidro">
+            <label for="vidro">Vidro</label><br><br>
+            <label for="geolocalizacao">Geolocalização</label><br>
+            <label for="latitude">Latitude: </label>
+            <input type="number" id="latitude"><br><br>
+            <label for="longitude">Longitude: </label>
+            <input type="number" id="longitude"><br><br>
+            <button type="button" id="button" onclick="inserirPonto()">Enviar</button>
+        </form>
+    </section>
+    <hr>
+    <section>
+        <section id="content" class="pontosDescarte"></section>
+    </section>
+</body>
+
+</html>

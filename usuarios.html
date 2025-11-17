@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuários</title>
+    <script src="scriptDescarte.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav><a href="index.html">Pontos </a><a href="#">Usuários </a><a href="filtrarUsuario.html">Filtrar</a><a href="relatorio.html">Relatórios </a></nav>
+    <section>
+        <form>
+            <label for="nomeUsuario">Nome do Usuário:</label>
+            <input type="text" name="nomeUsuario" id="nomeUsuario"><br><br>
+            <label for="nomePonto">Ponto: </label>
+            <input type="text" name="nomePonto" id="nomePonto"><br><br>
+            <label>Tipo de resíduo:</label><br><br>
+            <input type="radio" name="tipoResiduo" id="plastico" value="plástico">
+            <label for="plastico">Plástico</label><br>
+            <input type="radio" name="tipoResiduo" id="papel" value="papel">
+            <label for="papel">Papel</label><br>
+            <input type="radio" name="tipoResiduo" id="organico" value="orgânico">
+            <label for="organico">Orgânico</label><br>
+            <input type="radio" name="tipoResiduo" id="eletronico" value="eletrônico">
+            <label for="eletronico">Eletrônico</label><br>
+            <input type="radio" name="tipoResiduo" id="vidro" value="vidro">
+            <label for="vidro">Vidro</label><br><br>
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data">
+            <button type="button" id="button" onclick="inserirUsuario()">Enviar</button>
+        </form>
+    </section>
+    <hr>
+    <section>
+        <section id="content" class="pontosDescarte"></section>
+    </section>
+</body>
+
+</html>

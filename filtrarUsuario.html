@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Consulta de Histórico de Descartes</title>
+        <script src="historico.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <nav><a href="index.html">Pontos </a><a href="usuarios.html">Usuários </a><a href="relatorio.html">Relatórios</a></nav>
+    <h1 >Consulta de Histórico de Descartes</h1>
+
+    <section>
+        <form>
+            <h2>Filtros</h2>
+            <label>Nome do usuário:</label>
+            <input type="text" id="filtroNome"><br><br>
+            <label>Tipo de resíduo:</label>
+            <select id="filtroTipo">
+                <option value="">-- Todos --</option>
+                <option value="plástico">Plástico</option>
+                <option value="papel">Papel</option>
+                <option value="orgânico">Orgânico</option>
+                <option value="eletrônico">Eletrônico</option>
+                <option value="vidro">Vidro</option>
+            </select><br><br>
+            <label>Data inicial:</label>
+            <input type="date" id="dataInicio"><br><br>
+            <label>Data final:</label>
+            <input type="date" id="dataFim"><br><br>
+            <label>Ponto de descarte:</label>
+            <select id="filtroPonto">
+                <option value="">-- Todos --</option>
+            </select><br><br>
+            <button onclick="consultarHistorico()">Consultar</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <h2>Resultados</h2>
+    <section>
+        <section id="resultado"></section>
+    </section>
+
+</body>
+</html>
